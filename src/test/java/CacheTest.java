@@ -12,6 +12,10 @@ import com.lippi.cache.CacheFactory;
 public class CacheTest {
 
     public CacheTest(){}
+    
+    
+    
+    
     public static void main(String[] args) {
         Cache<String, Object> objectCache = CacheFactory.createCache("objects");
         //set max cache size
