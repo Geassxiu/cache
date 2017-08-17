@@ -33,8 +33,6 @@ package com.lippi.cache;
  */
 public interface Cacheable extends java.io.Serializable {
 	
-	
-	
 
     /**
      * Returns the approximate size of the Object in bytes. The size should be
